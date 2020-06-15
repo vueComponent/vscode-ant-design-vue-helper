@@ -1,0 +1,17 @@
+{
+	"a-layout-footer/class": {
+		"description": "container className",
+		"optionType": "string",
+		"defaultValue": "undefined"
+	},
+	"a-layout-footer/style": {
+		"description": "to customize the styles",
+		"optionType": "string | object",
+		"defaultValue": "-"
+	},
+	"a-layout-footer/hasSider": {
+		"description": "whether contain Sider in children, don't have to assign it normally. Useful in ssr avoid style flickering",
+		"optionType": "boolean",
+		"defaultValue": "-"
+	}
+}
